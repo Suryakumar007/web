@@ -77,6 +77,9 @@ body{
   position: relative;
 }
 
+.experience .card{
+  box-shadow: 0 0 20px #0f0f0f;
+}
 .experience .card-body{
   background-color: #141d45;
   padding: 1em;
@@ -101,16 +104,32 @@ body{
  color:#fff ; 
 }
 
-#card2 h4{
+#card2 h4,h6{
  color:#11d66d ;
 }
 #card2 p{
  color:#fff ;
 }
 
-#card3 h4{
+#card3 h4,h6{
  color:#11d66d ;
 }
 #card3 p{
  color:#fff ;
+}
+
+.footer{
+  background: #141d45;
+  color:white;
+  } 
+
+ .footer h3,h4{
+  color: #11d66d;
+ }
+
+ 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid #11d66d /*rgba(255,255,255,.1)*/;} 
 }
