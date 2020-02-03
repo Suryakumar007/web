@@ -47,18 +47,13 @@ html,h1,h2,h3,h4,h5,h6,a{
  color:#fff;
 }
 
-.container-fluid{
-  background-color: #141d45;
-}
-.container{
+body{
   background-color: #141d45;
 }
 
-#card1{
+
+/*#card1{
   background-color: #141d45;
-  margin-left: 50px;
-  margin-top: 150px;
-  margin-right: 50px;
   border-color: black;
 }
 
@@ -76,8 +71,30 @@ html,h1,h2,h3,h4,h5,h6,a{
   margin-right: 50px;
   border-color: black;
 }
+*/
+.experience{
+  margin: 4em 0;
+  position: relative;
+}
 
-#card1 h4{
+.experience .card-body{
+  background-color: #141d45;
+  padding: 1em;
+}
+
+.experience .card-footer{
+  background-color: #141d45;
+}
+#card1{
+  border-color: black;
+}
+#card2{
+  border-color: black;
+}
+#card3{
+  border-color: black;
+}
+#card1 h4,h6{
  color:#11d66d ;
 }
 #card1 p{
